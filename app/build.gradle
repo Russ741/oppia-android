@@ -18,11 +18,6 @@ android {
     testInstrumentationRunner "org.oppia.android.testing.OppiaTestRunner"
     // https://developer.android.com/training/testing/junit-runner#ato-gradle
     testInstrumentationRunnerArguments clearPackageData: 'true'
-    javaCompileOptions {
-      annotationProcessorOptions {
-        includeCompileClasspath true
-      }
-    }
   }
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
